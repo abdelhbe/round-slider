@@ -1,0 +1,17 @@
+.navigationRoot {
+	height: calc(100vh - 100px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dotNavigator {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding: 20px 0;
+	margin: 20px 0;
+	justify-content: center;
+	list-style-type: none;
+	width: 100%;
+}

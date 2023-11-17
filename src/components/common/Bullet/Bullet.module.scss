@@ -1,0 +1,45 @@
+@import '../../../styles/variables';
+
+.bullet {
+	margin-right: 20px;
+
+	&:last-of-type {
+		margin-right: 0;
+	}
+
+	span {
+		width: $bullet-size;
+		height: $bullet-size;
+		border-radius: 100%;
+		border: 2px solid #ffffff;
+		opacity: 0.5;
+		display: block;
+		
+		button {
+			box-shadow: none;
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	&:hover {
+		cursor: pointer;
+
+		span {
+			background: #ffffff;
+			opacity: 1;
+			transition: background 0.2s ease-in-out;
+			position: relative;
+		}
+	}
+	
+	&.active {
+		span {
+			background: #ffffff;
+			opacity: 1;
+			transition: background 0.2s ease-in-out;
+			position: relative;
+		}
+	}
+}
